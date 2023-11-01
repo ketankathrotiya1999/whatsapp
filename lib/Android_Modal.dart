@@ -1,0 +1,143 @@
+import 'package:flutter/material.dart';
+
+class Model
+{
+  final String name;
+  final String message;
+  final String message1;
+  final String time;
+  final String time1;
+  final String image;
+  final Icon icon;
+  final Icon icon1;
+  final Icon icon2;
+
+  Model({
+    required this.icon,
+    required this.icon1,
+    required this.icon2,
+    required this.image,
+    required this.name,
+    required this.time1,
+    required this.message,
+    required this.message1,
+    required this.time,
+
+  });
+}
+List<Model> ChatData = [
+  Model(
+      icon: Icon(Icons.call,color: Colors.greenAccent),
+      icon1: Icon(Icons.call,color: Colors.black,),
+      name: 'ketan',
+      message: 'good morning......',
+      time: '10:20 am',
+      time1: '25 september, 9:00 am',
+      image: 'assets/image/download.jpg',
+      message1: 'Outgoing',
+      icon2: Icon(Icons.videocam)),
+  Model(name: 'Ronak',
+      message: 'good morning......',
+      icon: Icon(Icons.missed_video_call_rounded,color: Colors.greenAccent),
+      time: '01:20 am',
+      time1: '25 september, 9:00 am',
+      image: 'assets/image/download.png',
+      message1: 'Outgoing',
+      icon2: Icon(Icons.videocam),
+      icon1:Icon(Icons.add_ic_call_rounded) ),
+  Model(name: 'vishal',
+      message: 'good morning......',
+      icon: Icon(Icons.missed_video_call_rounded,color: Colors.greenAccent),
+      time: '10:20 am',
+      time1: '25 september, 9:00 am',
+      image: 'assets/image/download (1).jpg',
+      message1: 'Missad',
+      icon2: Icon(Icons.videocam),
+      icon1:Icon(Icons.add_ic_call_rounded) ),
+  Model(name: 'parth',
+      message: 'good morning......',
+      time: '10:20 am',
+      icon: Icon(Icons.call,color: Colors.greenAccent),
+      time1: '25 september, 9:00 am',
+      image: 'assets/image/download (2).jpg',
+      message1: 'Missad',
+      icon2: Icon(Icons.videocam),
+      icon1:Icon(Icons.add_ic_call_rounded) ),
+  Model(name: 'piyush', time1: '25 september, 9:00 am',
+      icon: Icon(Icons.missed_video_call_rounded,color: Colors.greenAccent),
+
+      message: 'good morning......',
+      time: '10:20 pm',
+      image: 'assets/image/download (3).jpg',
+      message1: 'Missad',
+      icon2: Icon(Icons.videocam),
+      icon1:Icon(Icons.add_ic_call_rounded) ),
+
+  Model(name: 'meet',
+      message: 'good morning......',
+      icon: Icon(Icons.missed_video_call_rounded,color: Colors.greenAccent),
+      time: '10:20 pm',
+      time1: '25 september, 9:00 am',
+      image: 'assets/image/download (4).jpg',
+      message1: 'Missad',
+      icon2: Icon(Icons.videocam),
+      icon1:Icon(Icons.add_ic_call_rounded) ),
+  Model(name: 'dishant',
+      message: 'good morning......',
+      time: '10:20 pm',
+      icon: Icon(Icons.missed_video_call_rounded,color: Colors.greenAccent),
+      time1: '25 september, 9:00 am',
+      image: 'assets/image/download (5).jpg',
+      message1: 'Missad',
+      icon2: Icon(Icons.videocam),
+      icon1:Icon(Icons.add_ic_call_rounded) ),
+  Model(name: 'sahil',
+      message: 'good morning......',
+      time: '10:20 pm',
+      time1: '25 september, 9:00 am',
+      icon: Icon(Icons.call,color: Colors.greenAccent),
+      image: 'assets/image/download (6).jpg',
+      message1: 'Missad',
+      icon2: Icon(Icons.videocam),
+      icon1:Icon(Icons.add_ic_call_rounded) ),
+
+  Model(name: 'jenish',
+      message: 'good morning......',
+      time: '10:20 pm',
+      icon: Icon(Icons.missed_video_call_rounded,color: Colors.greenAccent),
+      time1: '25 september, 9:00 am',
+      image: 'assets/image/download (7).jpg',
+      message1: 'Outgoing',
+      icon2: Icon(Icons.videocam),
+      icon1:Icon(Icons.add_ic_call_rounded) ),
+  Model(name: 'akshil',
+      message: 'good morning......',
+      time: '10:20 am',
+      icon: Icon(Icons.call,color: Colors.greenAccent),
+      time1: '25 september, 9:00 am',
+      image: 'assets/image/download (1).jpg',
+      message1: 'Outgoing',
+      icon2: Icon(Icons.videocam),
+      icon1:Icon(Icons.add_ic_call_rounded) ),
+
+  Model(name: 'mayank',
+      message: 'good morning......',
+      time: '10:20 am',
+      icon: Icon(Icons.call,color: Colors.greenAccent),
+      time1: '25 september, 9:00 am',
+      image: 'assets/image/download (2).jpg',
+      message1: 'Outgoing',
+      icon2: Icon(Icons.videocam),
+      icon1:Icon(Icons.add_ic_call_rounded) ),
+  Model(name: 'kavita',
+      message: 'Kal chalte hai',
+      time: '10:20 am' ,
+      icon: Icon(Icons.call,color: Colors.greenAccent),
+      time1: '25 september, 9:00 am',
+      image: 'assets/image/download (3).jpg',
+      message1: 'Missad',
+      icon2: Icon(Icons.videocam),
+      icon1:Icon(Icons.add_ic_call_rounded) ),
+
+
+];
